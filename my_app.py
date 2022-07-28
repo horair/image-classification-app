@@ -29,7 +29,7 @@ def load_image(image):
     return img
 
 #Get image URL from user
-image_path=st.text_input("Enter Image URL to classify...","https://media.istockphoto.com/photos/passenger-airplane-flying-above-clouds-during-sunset-picture-id155439315?k=20&m=155439315&s=612x612&w=0&h=BvXCpRLaP5h1NnvyYI_2iRtSM0Xsz2jQhAmZ7nA7abA=")
+image_path=st.text_input("Enter Image URL to classify...","https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg?q=60")
 
 #Get image from URL and predict
 if image_path:
